@@ -201,7 +201,7 @@
                     Focusable="False"
                     Background="Transparent"
                     BorderThickness="0"
-                    PreviewMouseLeftButtonDown="AddNumber" Grid.ColumnSpan="2" Margin="0,38,59,-38"/>
+                    PreviewMouseLeftButtonDown="AddNumber"/>
 
             <Button Content="8"
                     Grid.Column="1"
@@ -250,7 +250,7 @@
                     Focusable="False"
                     Background="Transparent"
                     BorderThickness="0"
-                    PreviewMouseLeftButtonDown="AddNumber" Margin="0,-31,0,32"/>
+                    PreviewMouseLeftButtonDown="AddNumber"/>
 
             <Button Content="5"
                     Grid.Column="1"
