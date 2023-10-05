@@ -213,16 +213,6 @@
                     BorderThickness="0"
                     PreviewMouseLeftButtonDown="AddNumber"/>
 
-            <Button Content="9"
-                    Grid.Column="2"
-                    FontFamily="Consolas"
-                    FontSize="12"
-                    Cursor="Hand"
-                    Focusable="False"
-                    Background="Transparent"
-                    BorderThickness="0"
-                    PreviewMouseLeftButtonDown="AddNumber"/>
-
             <Button Content="(.)"
                     Grid.Column="3"
                     FontFamily="Consolas"
@@ -253,14 +243,14 @@
                     PreviewMouseLeftButtonDown="AddNumber"/>
 
             <Button Content="5"
-                    Grid.Column="1"
+                    Grid.Column="2"
                     FontFamily="Consolas"
                     FontSize="12"
                     Cursor="Hand"
                     Focusable="False"
                     Background="Transparent"
                     BorderThickness="0"
-                    PreviewMouseLeftButtonDown="AddNumber"/>
+                    PreviewMouseLeftButtonDown="AddNumber" Margin="0,-49,0,48"/>
 
             <Button Content="6"
                     Grid.Column="2"
